@@ -1,38 +1,101 @@
 .App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+  background-color: #adc4fc;
+  min-height: 100vh;
 }
 
 .App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+  text-align: center;
+  background-color: #3471ff;
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
   color: white;
+  padding-top: 20px;
+  padding-bottom: 20px;
 }
 
-.App-link {
-  color: #61dafb;
+.App-body {
+  width: 100%;
+  padding-bottom: 40px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+.Card {
+  margin: 20px auto;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+  border: 1px solid #282c34;
+  border-radius: 25px;
+  background-color: #d7e3fc;
+  width: 60vw;
+}
+
+.Left-Section {
+  width: 30%;
+}
+
+.Right-Section {
+  width: 70%;
+  display: flex;
+  flex-direction: column;
+  line-height: 30px;
+}
+
+.profile-image {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  margin-right: 20px;
+}
+
+.Social {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.icons {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  margin-left: 20px;
+}
+
+a {
+  color: #282c34;
+}
+
+@media screen and (max-width: 1200px) {
+  .Card {
+    width: 70vw;
   }
-  to {
-    transform: rotate(360deg);
+}
+
+@media screen and (max-width: 950px) {
+  .App-body {
+    flex-direction: column;
+    text-align: center;
+  }
+  .Card {
+    width: 80vw;
+    flex-direction: column;
+  }
+
+  .Left-Section {
+    width: 100%;
+  }
+
+  .Right-Section {
+    width: 100%;
+  }
+
+  .Social {
+    justify-content: center;
   }
 }
