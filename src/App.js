@@ -25,7 +25,7 @@ function App() {
         <div className="Card">
           <div className="Left-Section">
             <img
-              src="./Images/Prakhar1.JPG"
+              src="./Images/Prakhar1.jpg"
               alt="Your Name"
               className="profile-image"
             />
@@ -73,7 +73,7 @@ function App() {
         <div className="Card">
           <div className="Left-Section">
             <img
-              src="./Images/Prakhar1.JPG"
+              src="./Images/Prakhar1.jpg"
               alt="Prakhar"
               className="profile-image"
             />
@@ -118,7 +118,6 @@ function App() {
         </div>
         {/* Change the image name and add your image in the Images folder in Public folder */}
         {/* Copy Line 25 to 70 and paste it below the last card and change the details accordingly. */}
-        
       </div>
     </div>
   );
