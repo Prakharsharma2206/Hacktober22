@@ -2,8 +2,9 @@ Please have a look here to see your changes if merged: https://hacktober22.verce
 <ol>
   <li> The code template is given in the App.js file </li>
   <li>
+    <pre>
     <code>
-  &lt;div className="Card"&gt;
+      &lt;div className="Card"&gt;
           &lt;div className="Left-Section"&gt;
             &lt;img
               src="./Images/Prakhar1.jpg"
@@ -49,6 +50,7 @@ Please have a look here to see your changes if merged: https://hacktober22.verce
           &lt;/div&gt;
         &lt;/div&gt;
     </code>
+    </pre>
   </li>
   <li> Please either create an issue, or add your name in continuation to previous issue</li>
   <li> The previous step is to remove any merge conflicts that might arrise during merging of the code</li>
