@@ -1,4 +1,4 @@
-# Hacktoberfest22-Web Dev and DevOps
+# Hacktoberfest22-Web Dev 
 <hr />
 <img src='https://user-images.githubusercontent.com/59169706/193412019-192ab115-830b-40d1-8ed6-ee627e6661c4.png' alt="Hacktober22 Image" />
 
