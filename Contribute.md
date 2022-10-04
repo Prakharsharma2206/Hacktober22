@@ -2,51 +2,53 @@ Please have a look here to see your changes if merged: https://hacktober22.verce
 <ol>
   <li> The code template is given in the App.js file </li>
   <li>
-  <div className="Card">
-          <div className="Left-Section">
-            <img
+    <code>
+  &lt;div className="Card"&gt;
+          &lt;div className="Left-Section"&gt;
+            &lt;img
               src="./Images/Prakhar1.jpg"
               alt="Your Name"
               className="profile-image"
-            />
-          </div>
-          <div className="Right-Section">
-            <div>
-              <strong>Name : </strong> Your Name
-            </div>
-            <div>
-              <strong>College/Organization : </strong> Name of your
+            /&gt;
+          &lt;/div&gt;
+          &lt;div className="Right-Section"&gt;
+            &lt;div&gt;
+              &lt;strong&gt;Name : &lt;/strong&gt; Your Name
+            &lt;/div&gt;
+            &lt;div&gt;
+              &lt;strong&gt;College/Organization : &lt;/strong&gt; Name of your
               college/organization
-            </div>
-            <div>
-              <strong>Year : </strong> Your Year
-            </div>
-            <div>
-              <strong>Branch : </strong> Your Branch Here
-            </div>
-            <div className="Social">
-              <strong>Social Links</strong>
-              <div className="icons">
-                <a href="Your Twitter Link Here">
-                  <AiOutlineTwitter size={30} />
-                </a>
-                <a href="Your LinkedIn Link Here">
-                  <AiFillLinkedin size={30} />
-                </a>
-                <a href="Your Github Link Here">
-                  <AiOutlineGithub size={30} />
-                </a>
-                <a
+            &lt;/div&gt;
+            &lt;div&gt;
+              &lt;strong&gt;Year : &lt;/strong&gt; Your Year
+            &lt;/div&gt;
+            &lt;div&gt;
+              &lt;strong>Branch : &lt;/strong&gt; Your Branch Here
+            &lt;/div&gt;
+            &lt;div className="Social"&gt;
+              &lt;strong&gt;Social Links&lt;/strong&gt;
+              &lt;div className="icons"&gt;
+                &lt;a href="Your Twitter Link Here"&gt;
+                  &lt;AiOutlineTwitter size={30} /&gt;
+                &lt;/a&gt;
+                &lt;a href="Your LinkedIn Link Here"&gt;
+                  &lt;AiFillLinkedin size={30} /&gt;
+                &lt;/a&gt;
+                &lt;a href="Your Github Link Here"&gt;
+                  &lt;AiOutlineGithub size={30} /&gt;
+                &lt;/a&gt;
+                &lt;a
                   href="Your Website Link Here"
                   target="_blank"
                   rel="noreferrer"
-                >
-                  <CgWebsite size={30} />
-                </a>
-              </div>
-            </div>
-          </div>
-        </div>
+                &gt;
+                  &lt;CgWebsite size={30} /&gt;
+                &lt;/a&gt;
+              &lt;/div&gt;
+            &lt;/div&gt;
+          &lt;/div&gt;
+        &lt;/div&gt;
+    </code>
   </li>
   <li> Please either create an issue, or add your name in continuation to previous issue</li>
   <li> The previous step is to remove any merge conflicts that might arrise during merging of the code</li>
