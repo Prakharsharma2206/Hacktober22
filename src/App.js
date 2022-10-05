@@ -152,7 +152,7 @@ function App() {
                   <AiOutlineGithub size={30} />
                 </a>
                 <a
-                  href="#"
+                  href=""
                   target="_blank"
                   rel="noreferrer"
                 >
