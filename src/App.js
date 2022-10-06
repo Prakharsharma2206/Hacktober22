@@ -117,7 +117,7 @@ function App() {
           </div>
         </div>
 
-      <div className="Card">
+        <div className="Card">
           <div className="Left-Section">
             <img
               src="./Images/Kushaggra.jpg"
@@ -151,11 +151,49 @@ function App() {
                 <a href="https://github.com/Kushaggra">
                   <AiOutlineGithub size={30} />
                 </a>
-                <a
-                  href="#"
-                  target="_blank"
-                  rel="noreferrer"
-                >
+                <a href="#" target="_blank" rel="noreferrer">
+                  <CgWebsite size={30} />
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div className="Card">
+          <div className="Left-Section">
+            <img
+              src="./Images/tiansing.jpg"
+              alt="tiansing"
+              className="profile-image"
+            />
+          </div>
+          <div className="Right-Section">
+            <div>
+              <strong>Name : </strong> Christian Igbaras
+            </div>
+            <div>
+              <strong>College/Organization : </strong> SurPathHub
+            </div>
+            <div>
+              <strong>Year : </strong> 4th Year
+            </div>
+            <div>
+              <strong>Branch : </strong> Information Systems
+            </div>
+            <div className="Social">
+              <strong>Social Links</strong>
+              <div className="icons">
+                <a href="#">
+                  <AiOutlineTwitter size={30} />
+                </a>
+
+                <a href="https://www.linkedin.com/in/christian-igbaras-41b8a8203/">
+                  <AiFillLinkedin size={30} />
+                </a>
+                <a href="https://github.com/Tiansing">
+                  <AiOutlineGithub size={30} />
+                </a>
+                <a href="#" target="_blank" rel="noreferrer">
                   <CgWebsite size={30} />
                 </a>
               </div>
