@@ -200,6 +200,54 @@ function App() {
             </div>
           </div>
         </div>
+        
+        <div className="Card">
+          <div className="Left-Section">
+            <img
+              src="./Images/yagyesh.jpg"
+              alt="Yagyesh Bobde"
+              className="profile-image"
+            />
+          </div>
+          <div className="Right-Section">
+            <div>
+              <strong>Name : </strong> Yagyesh Bobde
+            </div>
+            <div>
+              <strong>College/Organization : </strong> 
+              Anchors
+            </div>
+            <div>
+              <strong>Year : </strong> 1st Year
+            </div>
+            <div>
+              <strong>Branch : </strong> Computer Science
+            </div>
+            <div className="Social">
+              <strong>Social Links</strong>
+              <div className="icons">
+                <a href="https://bit.ly/yb-twitter">
+                  <AiOutlineTwitter size={30} />
+                </a>
+
+                <a href="https://bit.ly/yb-linkedin">
+                  <AiFillLinkedin size={30} />
+                </a>
+                <a href="https://bit.ly/github_yb">
+                  <AiOutlineGithub size={30} />
+                </a>
+                <a
+                  href="https://bit.ly/yb-linkedin"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  <CgWebsite size={30} />
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+           
         {/* Change the image name and add your image in the Images folder in Public folder */}
         {/* Copy Line 25 to 70 and paste it below the last card and change the details accordingly. */}
       </div>
