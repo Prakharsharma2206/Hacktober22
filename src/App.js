@@ -247,6 +247,53 @@ function App() {
             </div>
           </div>
         </div>
+
+        <div className="Card">
+          <div className="Left-Section">
+            <img
+              src="./Images/Vardaan.jpg"
+              alt="Vardaan Aggarwal"
+              className="profile-image"
+            />
+          </div>
+          <div className="Right-Section">
+            <div>
+              <strong>Name : </strong> Vardaan Aggarwal
+            </div>
+            <div>
+              <strong>College/Organization : </strong>
+              Vivekananda Institute Of Professional Studies
+            </div>
+            <div>
+              <strong>Year : </strong> 2nd Year
+            </div>
+            <div>
+              <strong>Branch : </strong> BCA
+            </div>
+            <div className="Social">
+              <strong>Social Links</strong>
+              <div className="icons">
+                <a href="https://twitter.com/VardaanAgg">
+                  <AiOutlineTwitter size={30} />
+                </a>
+
+                <a href="https://www.linkedin.com/in/vardaanaggarwal/">
+                  <AiFillLinkedin size={30} />
+                </a>
+                <a href="https://github.com/VardaanAggarwal">
+                  <AiOutlineGithub size={30} />
+                </a>
+                <a
+                  href="https://bio.link/vardaanagg"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  <CgWebsite size={30} />
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
            
         {/* Change the image name and add your image in the Images folder in Public folder */}
         {/* Copy Line 25 to 70 and paste it below the last card and change the details accordingly. */}
