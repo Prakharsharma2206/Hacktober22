@@ -295,6 +295,53 @@ function App() {
                     </div>
                 </div>
 
+                <div className="Card">
+                    <div className="Left-Section">
+                        <img
+                            src="./Images/Siddhant.jpg"
+                            alt="Siddhant Madke"
+                            className="profile-image"
+                        />
+                        <hr />
+                        <div className="Social">
+                            <div className="icons">
+                                <a href="https://twitter.com/SiddhantMadke">
+                                    <AiOutlineTwitter size={30} />
+                                </a>
+
+                                <a href="https://www.linkedin.com/in/siddhant-madke-97720b224">
+                                    <AiFillLinkedin size={30} />
+                                </a>
+                                <a href="https://github.com/sidmadke">
+                                    <AiOutlineGithub size={30} />
+                                </a>
+                                <a
+                                    href=""
+                                    target="_blank"
+                                    rel=""
+                                >
+                                    <CgWebsite size={30} />
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div className="Right-Section">
+                        <div>
+                            <strong>Name : </strong> Siddhant Madke
+                        </div>
+                        <div>
+                            <strong>College/Organization : </strong>
+                            Terna Engineering College
+                        </div>
+                        <div>
+                            <strong>Year : </strong> 3rd Year
+                        </div>
+                        <div>
+                            <strong>Branch : </strong> Information Technology
+                        </div>
+                    </div>
+                </div>
+
                 {/* Change the image name and add your image in the Images folder in Public folder */}
                 {/* Copy Line 25 to 70 and paste it below the last card and change the details accordingly. */}
             </div>
