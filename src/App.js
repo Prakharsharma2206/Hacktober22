@@ -69,7 +69,6 @@ function App() {
             </div>
           </div>
         ))}
-
         {/* Change the image name and add your image in the Images folder in Public folder */}
         {/* Go to profiles.js and copy line 1 to 11 and paste it below the last card and change the details accordingly. */}
       </div>
