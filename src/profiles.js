@@ -77,4 +77,15 @@ export const profiles = [
     cardGithub: "https://github.com/sidmadke",
     cardWebsite: "",
   },
+  {
+    cardImgSrc: "./Images/akash.jpg",
+    cardName: "Akash singhal",
+    cardCollege: "Vivekananda Institute of Professional Studies",
+    cardYear: "2nd Year",
+    cardBranch: "BCA",
+    cardTwitter: "https://twitter.com/AkashSinghla",
+    cardLinkedin: "https://www.linkedin.com/in/akash-singhal-6a5689196",
+    cardGithub: "https://github.com/Akashsinghal1234",
+    cardWebsite: "",
+  },
 ];
