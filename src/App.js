@@ -341,6 +341,54 @@ function App() {
                         </div>
                     </div>
                 </div>
+                <div className="Card">
+                    <div className="Left-Section">
+                        <img
+                            src="./Images/code.gif"
+                            alt="Siddhant Madke"
+                            className="profile-image"
+                        />
+                        <hr />
+                        <div className="Social">
+                            <div className="icons">
+                                <a href="https://twitter.com/ZachyDev">
+                                    <AiOutlineTwitter size={30} />
+                                </a>
+
+                                <a href="https://www.linkedin.com/in/zachary-moseti">
+                                    <AiFillLinkedin size={30} />
+                                </a>
+                                <a href="https://github.com/ZachyDev">
+                                    <AiOutlineGithub size={30} />
+                                </a>
+                                <a
+                                    href=""
+                                    target="_blank"
+                                    rel=""
+                                >
+                                    <CgWebsite size={30} />
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div className="Right-Section">
+                        <div>
+                            <strong>Name : </strong> Zachary Moseti
+                        </div>
+                        <div>
+                            <strong>College/Organization : </strong>
+                            University of Eldoret
+                        </div>
+                        <div>
+                            <strong>Year : </strong> 4th Year
+                        </div>
+                        <div>
+                            <strong>Branch : </strong> Computer Science
+                        </div>
+                    </div>
+                </div>
+
+                
 
                 {/* Change the image name and add your image in the Images folder in Public folder */}
                 {/* Copy Line 25 to 70 and paste it below the last card and change the details accordingly. */}
