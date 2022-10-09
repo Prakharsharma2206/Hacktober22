@@ -14,6 +14,7 @@
   color: white;
   padding-top: 20px;
   padding-bottom: 20px;
+  margin-bottom: 50px;
 }
 
 .App-body {
@@ -22,14 +23,14 @@
 }
 
 .Card {
-  margin: 20px auto;
+  margin: 30px auto;
   display: flex;
   flex-direction: row;
   align-items: center;
   justify-content: center;
 
   /*border: 1px solid #282c34;*/
-  border-radius: 25px;
+  border-radius: 15px;
   background-color: #dce6fc;
   width: 60vw;
 }
@@ -46,7 +47,7 @@
     rgb(202, 200, 200) 100%
   );
   width: 33%;
-  border-radius: 25px;
+  border-radius: 15px;
 }
 
 .Right-Section {
@@ -62,8 +63,7 @@
   width: 200px;
   height: 200px;
   border-radius: 50%;
-  margin-top: 10%;
-  margin-left: 17%;
+  margin: 30px 35px;
 }
 
 .Social {
@@ -78,7 +78,7 @@
   align-items: center;
   justify-content: center;
   gap: 20px;
-  margin-left: 20%;
+  margin: 0px 17% 2% 17%;
 }
 
 a {

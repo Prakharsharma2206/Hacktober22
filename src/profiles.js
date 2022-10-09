@@ -66,4 +66,15 @@ export const profiles = [
     cardGithub: "https://github.com/VardaanAggarwal",
     cardWebsite: "https://bio.link/vardaanagg",
   },
+  {
+    cardImgSrc: "./Images/Siddhant.jpg",
+    cardName: "Siddhant Madke",
+    cardCollege: "Terna Engineering College",
+    cardYear: "3rd Year",
+    cardBranch: "Information Technology",
+    cardTwitter: "https://twitter.com/SiddhantMadke",
+    cardLinkedin: "https://www.linkedin.com/in/siddhant-madke-97720b224",
+    cardGithub: "https://github.com/sidmadke",
+    cardWebsite: "",
+  },
 ];
