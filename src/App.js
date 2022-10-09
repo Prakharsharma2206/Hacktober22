@@ -342,6 +342,54 @@ function App() {
                     </div>
                 </div>
 
+                <div className="Card">
+                    <div className="Left-Section">
+                        <img
+                            src="./Images/akash.jpg"
+                            alt="Akash singhal"
+                            className="profile-image"
+                        />
+                        <hr />
+                        <div className="Social">
+                            <div className="icons">
+                                <a href="https://twitter.com/AkashSinghla">
+                                    <AiOutlineTwitter size={30} />
+                                </a>
+
+                                <a href="https://www.linkedin.com/in/akash-singhal-6a5689196/">
+                                    <AiFillLinkedin size={30} />
+                                </a>
+                                <a href="https://github.com/Akashsinghal1234">
+                                    <AiOutlineGithub size={30} />
+                                </a>
+                                <a
+                                    href=""
+                                    target="_blank"
+                                    rel=""
+                                >
+                                    <CgWebsite size={30} />
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div className="Right-Section">
+                        <div>
+                            <strong>Name : </strong> Akash singhal
+                        </div>
+                        <div>
+                            <strong>College/Organization : </strong>
+                            Vivekananda Institute of Professional Studies
+                        </div>
+                        <div>
+                            <strong>Year : </strong> 2nd Year
+                        </div>
+                        <div>
+                            <strong>Branch : </strong> BCA
+                        </div>
+                    </div>
+                </div>
+
+
                 {/* Change the image name and add your image in the Images folder in Public folder */}
                 {/* Copy Line 25 to 70 and paste it below the last card and change the details accordingly. */}
             </div>
