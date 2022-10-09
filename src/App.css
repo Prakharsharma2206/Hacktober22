@@ -1,115 +1,115 @@
 .App {
-    background-color: #adc4fc;
-    min-height: 100vh;
+  background-color: #adc4fc;
+  min-height: 100vh;
 }
 
 .App-header {
-    text-align: center;
-    background-color: #3471ff;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: center;
-    font-size: calc(10px + 2vmin);
-    color: white;
-    padding-top: 20px;
-    padding-bottom: 20px;
+  text-align: center;
+  background-color: #3471ff;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+  padding-top: 20px;
+  padding-bottom: 20px;
 }
 
 .App-body {
-    width: 100%;
-    padding-bottom: 40px;
+  width: 100%;
+  padding-bottom: 40px;
 }
 
 .Card {
-    margin: 20px auto;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: center;
+  margin: 20px auto;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
 
-    /*border: 1px solid #282c34;*/
-    border-radius: 25px;
-    background-color: #dce6fc;
-    width: 60vw;
+  /*border: 1px solid #282c34;*/
+  border-radius: 25px;
+  background-color: #dce6fc;
+  width: 60vw;
 }
 
 .Card:hover {
-    transform: scale(1.01);
+  transform: scale(1.01);
 }
 
 .Left-Section {
-    background-image: linear-gradient(
-        #3471ff 0%,
-        #3471ff 50%,
-        rgb(220, 218, 218) 51%,
-        rgb(202, 200, 200) 100%
-    );
-    width: 33%;
-    border-radius: 25px;
+  background-image: linear-gradient(
+    #3471ff 0%,
+    #3471ff 50%,
+    rgb(220, 218, 218) 51%,
+    rgb(202, 200, 200) 100%
+  );
+  width: 33%;
+  border-radius: 25px;
 }
 
 .Right-Section {
-    font-size: 20px;
-    padding-left: 100px;
-    width: 70%;
-    display: flex;
-    flex-direction: column;
-    line-height: 30px;
+  font-size: 20px;
+  padding-left: 100px;
+  width: 70%;
+  display: flex;
+  flex-direction: column;
+  line-height: 30px;
 }
 
 .profile-image {
-    width: 200px;
-    height: 200px;
-    border-radius: 50%;
-    margin-top: 10%;
-    margin-left: 17%;
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  margin-top: 10%;
+  margin-left: 17%;
 }
 
 .Social {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
 }
 
 .icons {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: center;
-    gap: 20px;
-    margin-left: 20%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  margin-left: 20%;
 }
 
 a {
-    color: #282c34;
+  color: #282c34;
 }
 
 @media screen and (max-width: 1200px) {
-    .Card {
-        width: 70vw;
-    }
+  .Card {
+    width: 70vw;
+  }
 }
 
 @media screen and (max-width: 950px) {
-    .App-body {
-        flex-direction: column;
-        text-align: center;
-    }
-    .Card {
-        width: 80vw;
-        flex-direction: column;
-    }
+  .App-body {
+    flex-direction: column;
+    text-align: center;
+  }
+  .Card {
+    width: 80vw;
+    flex-direction: column;
+  }
 
-    .Left-Section {
-        width: 100%;
-    }
+  .Left-Section {
+    width: 100%;
+  }
 
-    .Right-Section {
-        width: 100%;
-    }
+  .Right-Section {
+    width: 100%;
+  }
 
-    .Social {
-        justify-content: center;
-    }
+  .Social {
+    justify-content: center;
+  }
 }
