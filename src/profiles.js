@@ -109,6 +109,5 @@ export const profiles = [
     cardLinkedin: "https://www.linkedin.com/in/yuval-sharma-a5201a22a/",
     cardGithub: "https://github.com/Yuval207",
     cardWebsite: "",
-  }
-
+  },
 ];
