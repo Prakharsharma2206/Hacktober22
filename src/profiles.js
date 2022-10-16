@@ -88,4 +88,15 @@ export const profiles = [
     cardGithub: "https://github.com/Akashsinghal1234",
     cardWebsite: "",
   },
+  {
+    cardImgSrc: "./Images/shubh.jpg",
+    cardName: "Shubh Sardana",
+    cardCollege: "University School of Automation & Robotics",
+    cardYear: "2nd Year",
+    cardBranch: "Computer Science(IOT)",
+    cardTwitter: "https://twitter.com/NotSoShubhhh",
+    cardLinkedin: "https://www.linkedin.com/in/shubh-sardana-76a750215/",
+    cardGithub: "https://github.com/shubhsardana29",
+    cardWebsite: "",
+  },
 ];
