@@ -99,6 +99,7 @@ export const profiles = [
     cardGithub: "https://github.com/shubhsardana29",
     cardWebsite: "",
   },
+  {
     cardImgSrc: "./Images/Yuval.jpg",
     cardName: "Yuval Sharma",
     cardCollege: "Maharaja Agrasen of Technology",
