@@ -88,4 +88,15 @@ export const profiles = [
     cardGithub: "https://github.com/Akashsinghal1234",
     cardWebsite: "",
   },
+  {
+    cardImgSrc: "./Images/Yuval.jpg",
+    cardName: "Yuval Sharma",
+    cardCollege: "Maharaja Agrasen of Technology",
+    cardYear: "2nd Year",
+    cardBranch: "ECE",
+    cardTwitter: "https://twitter.com/Yuval_shrma1207",
+    cardLinkedin: "https://www.linkedin.com/in/yuval-sharma-a5201a22a/",
+    cardGithub: "https://github.com/Yuval207",
+    cardWebsite: "",
+  }
 ];
