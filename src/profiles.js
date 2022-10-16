@@ -89,6 +89,17 @@ export const profiles = [
     cardWebsite: "",
   },
   {
+    cardImgSrc: "./Images/shubh.jpg",
+    cardName: "Shubh Sardana",
+    cardCollege: "University School of Automation & Robotics",
+    cardYear: "2nd Year",
+    cardBranch: "Computer Science(IOT)",
+    cardTwitter: "https://twitter.com/NotSoShubhhh",
+    cardLinkedin: "https://www.linkedin.com/in/shubh-sardana-76a750215/",
+    cardGithub: "https://github.com/shubhsardana29",
+    cardWebsite: "",
+  },
+  {
     cardImgSrc: "./Images/Yuval.jpg",
     cardName: "Yuval Sharma",
     cardCollege: "Maharaja Agrasen of Technology",
@@ -98,5 +109,5 @@ export const profiles = [
     cardLinkedin: "https://www.linkedin.com/in/yuval-sharma-a5201a22a/",
     cardGithub: "https://github.com/Yuval207",
     cardWebsite: "",
-  }
+  },
 ];
