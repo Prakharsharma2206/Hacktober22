@@ -110,4 +110,15 @@ export const profiles = [
     cardGithub: "https://github.com/Yuval207",
     cardWebsite: "",
   },
+  {
+    cardImgSrc: "./Images/Pratham.jpg",
+    cardName: "Pratham Kumar",
+    cardCollege: "Vivekananda Institute of Professional Studies",
+    cardYear: "2nd Year",
+    cardBranch: "CS",
+    cardTwitter: "https://twitter.com/prathamkumar708",
+    cardLinkedin: "https://www.linkedin.com/in/pratham-kumar-069b88143/",
+    cardGithub: "https://github.com/pratham9958",
+    cardWebsite: "",
+  },
 ];
