@@ -121,4 +121,15 @@ export const profiles = [
     cardGithub: "https://github.com/pratham9958",
     cardWebsite: "",
   },
+    {
+    cardImgSrc: "https://m.facebook.com/photo.php?fbid=748480126107777&id=100028373886565&set=a.176947199927742&eav=Afb2MMJdbvQPWo2MXbqwUOytYFcFBxfKaDxoYM-3RevYpYBn7R9uK4duQmMKRyxpBzo&paipv=0&source=11&refid=17",
+    cardName: "Prajwal Suvarna ",
+    cardCollege: "NMAM Institiute of Technology",
+    cardYear: "3rd Year",
+    cardBranch: "CSE",
+    cardTwitter: "https://twitter.com/prajwalsuvarnaa",
+    cardLinkedin: "https://www.linkedin.com/in/prajwal-suvarna-43446a218/",
+    cardGithub: "https://github.com/prajwalsuvarna",
+    cardWebsite: "https://www.instagram.com/prajwalsuvarnaa/",
+  },
 ];
