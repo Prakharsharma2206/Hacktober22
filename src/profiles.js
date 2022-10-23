@@ -121,4 +121,15 @@ export const profiles = [
     cardGithub: "https://github.com/pratham9958",
     cardWebsite: "",
   },
+    {
+    cardImgSrc: "./Images/TanmayS.jpg",
+    cardName: "Tanmay Sankpal",
+    cardCollege: "Terna Engineering College",
+    cardYear: "3rd Year",
+    cardBranch: "Information Technology",
+    cardTwitter: "https://twitter.com/TanmaySankpal1",
+    cardLinkedin: "",
+    cardGithub: "https://github.com/tanmay-S12",
+    cardWebsite: "",
+  },
 ];
